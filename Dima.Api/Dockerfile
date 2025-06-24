@@ -1,14 +1,13 @@
-# Etapa 1 - build
+# Etapa 1: build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-COPY ../Dima.Core ./Dima.Core
-COPY ./ ./
+COPY . .
 
-RUN dotnet publish Dima.Api.csproj -c Release -o /app/out
+RUN dotnet publish Dima.Api/Dima.Api.csproj -c Release -o /app/out
 
-# Etapa 2 - runtime
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+# Etapa 2: runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out .
 
