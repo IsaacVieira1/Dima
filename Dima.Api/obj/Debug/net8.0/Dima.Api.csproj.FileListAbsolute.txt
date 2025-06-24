@@ -148,3 +148,4 @@ D:\Desktop\projectdotnet\Dima\Dima.Api\obj\Debug\net8.0\refint\Dima.Api.dll
 D:\Desktop\projectdotnet\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.pdb
 D:\Desktop\projectdotnet\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.genruntimeconfig.cache
 D:\Desktop\projectdotnet\Dima\Dima.Api\obj\Debug\net8.0\ref\Dima.Api.dll
+D:\Desktop\projectdotnet\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.sourcelink.json
